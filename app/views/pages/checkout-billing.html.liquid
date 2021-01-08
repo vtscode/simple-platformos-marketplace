@@ -1,0 +1,185 @@
+<div class="main-content space-80 check-billing"> 
+  <div class="container">            
+    <ul class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li class="active">Check out</li>
+    </ul>   
+    <div class="checkout-header">
+        <ul>
+            <li><a href="/checkout-identifi"><span>01</span>Identification</li></a>
+            <li class="active"><a href="/checkout-billing"><span>02</span>Billing & shipping</li></a>
+            <li><a href="/checkout-confirm"><span>03</span>Confirmation</li></a>
+        </ul>
+    </div>
+    <!-- End checkout header -->
+    <div class="contact-form check-out space-50">
+        <div class="col-md-6 padding-left-0">
+            <div class="title-product">
+                <h3>Billing details</h3>
+            </div>
+            <!-- End title-product -->
+            <form class="form-horizontal">
+                <div class="form-group col-md-6">
+                    <label class=" control-label" for="inputfname">First Name*</label>                            
+                    <input type="text" class="form-control" id="inputfname" placeholder="Enter your first name...">  
+                </div>
+                <div class="form-group col-md-6">
+                    <label class=" control-label" for="inputlname">Last Name*</label>                            
+                    <input type="text" class="form-control" id="inputlname" placeholder="Enter your last name...">  
+                </div>
+                <div class="form-group col-md-6">
+                    <label class=" control-label" for="inputemail">Email*</label>                            
+                    <input type="text" class="form-control" id="inputemail" placeholder="Enter your email...">  
+                </div>
+                <div class="form-group col-md-6">
+                    <label class=" control-label" for="inputcompany">Company Name</label>                            
+                    <input type="text" class="form-control" id="inputcompany" placeholder="Enter your company name...">  
+                </div>
+                <div class="form-group">
+                    <label class=" control-label" for="inputstreet">Adress*</label>                            
+                    <input type="text" class="form-control space-20" id="inputstreet" placeholder="Enter your street address...">  
+                    <input type="text" class="form-control" id="inputapartment" placeholder="Enter the apartment, floor, suite, etc..."> 
+                </div>                        
+                <div class="form-group">
+                    <label class=" control-label" for="inputcountry">Country*</label>                            
+                    <input type="text" class="form-control space-20" id="inputcountry" placeholder="Enter your country...">
+                </div>
+                <div class="form-group col-md-6">
+                    <label class=" control-label" for="inputfState">State *</label>                            
+                    <input type="text" class="form-control" id="inputfState" placeholder="Select your state...">  
+                </div>
+                <div class="form-group col-md-6">
+                    <label class=" control-label" for="inputmail">Zip code *</label>                            
+                    <input type="text" class="form-control" id="inputmail" placeholder="Enter your Zip or postal cade...">  
+                </div>
+                <div class="form-group">
+                    <label class=" control-label" for="inputmail">Additional Notes</label>                            
+                    <textarea class="form-control" id="message" name="message"></textarea>  
+                </div>     
+            </form>   
+        </div>
+        <!-- End col-md-6 -->
+        <div class="col-md-6 padding-right-0">
+            <div class="title-product">
+                <h3>Shipping details</h3>
+            </div>
+            <!-- End title-product -->
+            <form class="form-horizontal">
+                <div class="form-group col-md-6">
+                    <label class=" control-label" for="inputfdname">First Name*</label>                            
+                    <input type="text" class="form-control" id="inputfdname" placeholder="Enter your first name...">  
+                </div>
+                <div class="form-group col-md-6">
+                    <label class=" control-label" for="inputdlname">Last Name*</label>                            
+                    <input type="text" class="form-control" id="inputdlname" placeholder="Enter your last name...">  
+                </div>
+                <div class="form-group col-md-6">
+                    <label class=" control-label" for="inputdemail">Email*</label>                            
+                    <input type="text" class="form-control" id="inputdemail" placeholder="Enter your email...">  
+                </div>
+                <div class="form-group col-md-6">
+                    <label class=" control-label" for="inputdcompany">Company Name</label>                            
+                    <input type="text" class="form-control" id="inputdcompany" placeholder="Enter your company name...">  
+                </div>
+                <div class="form-group">
+                    <label class=" control-label" for="inputdadress">Adress*</label>                            
+                    <input type="text" class="form-control space-20" id="inputdadress" placeholder="Enter your street address...">  
+                    <input type="text" class="form-control" id="inputdadress2" placeholder="Enter the apartment, floor, suite, etc..."> 
+                </div>                        
+                <div class="form-group">
+                    <label class=" control-label" for="inputdCountry">Country*</label>                            
+                    <input type="text" class="form-control space-20" id="inputdCountry" placeholder="Enter your country...">
+                </div>
+                <div class="form-group col-md-6">
+                    <label class=" control-label" for="inputdState">State *</label>                            
+                    <input type="text" class="form-control" id="inputdState" placeholder="Select your state...">  
+                </div>
+                <div class="form-group col-md-6">
+                    <label class=" control-label" for="inputdzipcode">Zip code *</label>                            
+                    <input type="text" class="form-control" id="inputdzipcode" placeholder="Enter your Zip or postal cade...">  
+                </div>
+                <div class="form-group">
+                    <label class=" control-label" for="dmessage">Additional Notes</label>                            
+                    <textarea class="form-control" id="dmessage" name="message"></textarea>  
+                </div>     
+            </form>   
+        </div>
+        <!-- End col-md-6 -->
+    </div>
+    <!-- End contact-form -->
+    <div class="cart-review space-padding-tb-40 space-50">
+        <div class="title-product">
+            <h3>Cart review</h3>
+        </div>
+        <!-- End title-product -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name product #01</td>
+                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                    <td>$69,90</td>
+                    <td>02</td>
+                    <td>$139.80</td>
+                </tr>
+                <tr>
+                    <td>Name product #01</td>
+                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                    <td>$69,90</td>
+                    <td>02</td>
+                    <td>$139.80</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- End cart-review -->
+    <div class="payment-order">
+        <div class="payment col-md-6 padding-left-0">
+            <div class="title-product">
+                <h3>Payment method</h3>
+            </div>
+            <ul class="tabs">
+                <li>
+                    <i class="icon"></i>
+                    <h3>Direct Bank Transfer</h3>
+                    <p>Make your payment directly info our bank account. Please use your order ID as the
+                    payment reference. You product won't be shipped untill payment confiimation. </p>
+                </li>
+                <li>
+                    <i class="icon"></i>
+                    <h3>Credit Card</h3>
+                    <img src="{{ 'futurelifeasset/images/Futurelife-checkout-card.jpg' | asset_url}}" alt="Futurelife">
+                </li>
+                <li>
+                    <i class="icon"></i>
+                    <h3>Via Paypal</h3>
+                    <img src="{{ 'futurelifeasset/images/Futurelife-checkout-pay.jpg' | asset_url}}" alt="">
+                </li>
+            </ul>
+        </div>
+        <!-- End payment -->
+        <div class="order col-md-6 text-price padding-right-0">
+            <div class="title-product">
+                <h3>your order</h3>
+            </div>
+            <ul>
+                <li><span class="text">Cart Subtotal</span><span class="number">$279.60</span></li>
+                <li><span class="text">Shipping & Handling</span><span class="number">$30.00</span></li>
+                <li><span class="text">Coupon Discount</span><span class="number">$10.00</span></li>
+                <li><span class="text">Order Total</span><span class="number">$299.60</span></li>
+            </ul>
+        </div>
+        <!-- End order -->
+    </div>
+    <!-- End payment-order -->
+</div>           
+<!-- End conainer -->
+  </div>

@@ -1,0 +1,112 @@
+<div class="main-content shopping-cart"> 
+  <div class="container">            
+    <ul class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li class="active">Shopping cart</li>
+    </ul>   
+    <div class="title-product">
+        <h3>Shopping Cart</h3>
+    </div>
+    <!-- End title product -->
+    <table class="table space-80">
+        <thead>
+            <tr>
+                <th class="product-photo">Product Photo</th>
+                <th class="produc-name">Product Name</th>
+                <th class="description">Description</th>
+                <th class="product-price">Price</th>
+                <th class="product-quantity">Quantity</th>
+                <th class="total-price">Total price </th>
+                <th class="product-remove"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="item_cart">
+                <td class="product-photo"><img src="assets/images/products/1.jpg" alt="Futurelife" height="100" width="100"></td>
+                <td class="produc-name"><a href="#" title="">Name product 01</a></td>
+                <td class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                <td class="product-price">$69.60</td>
+                <td class="product-quantity"><input type="number" size="4" class="input-text qty text" title="SL" value="1" min="0" step="1"></td>
+                <td class="total-price">$69.60</td>
+                <td class="product-remove"><a href="#" title="">x</a></td>
+            </tr>
+            <tr class="item_cart">
+                <td class="product-photo"><img src="assets/images/products/1.jpg" alt="Futurelife" height="100" width="100"></td>
+                <td class="produc-name"><a href="#" title="">Name product 01</a></td>
+                <td class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+                <td class="product-price">$69.60</td>
+                <td class="product-quantity"><input type="number" size="4" class="input-text qty text" title="SL" value="1" min="0" step="1"></td>
+                <td class="total-price">$69.60</td>
+                <td class="product-remove"><a href="#" title="">x</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="shipping-total">
+        <div class="col-md-4 caculate-shipping">
+            <div class="title-product">
+                <h3>Caculate shipping</h3>
+            </div>
+            <div class="contact-form">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class=" control-label" for="inputconttry">Select your Counttry</label>                            
+                        <input type="text" class="form-control" id="inputconttry" placeholder="United States (USA)...">                
+                    </div>                  
+                    <div class="form-group"></div>         
+                    <div class="form-group col-md-6">  
+                        <label for="inputstate" class="control-label">Select your State</label>
+                        <select id="inputstate" class="form-control inputstate">
+                            <option value="">State / City...</option>
+                            <option value="City1">City1</option>
+                            <option value="City2">City2</option>
+                            <option value="City3">City3</option>
+                        </select>                       
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label class=" control-label" for="inputzipcode">Zip Code</label>                            
+                        <input type="text" class="form-control" id="inputzipcode" placeholder="Zip code...">                
+                    </div>                            
+                    <div class="form-group">
+                        <button value="Submit" class="btn link-button link-button-v2" type="submit">Update Shipping</button>
+                    </div>                              
+                </form>    
+            </div>
+            <!-- End contact form -->
+        </div>  
+        <!-- End col-md-4 -->
+        <div class="col-md-4 coupon">
+            <div class="title-product">
+                <h3>Coupon code</h3>
+            </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="contact-form">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class=" control-label" for="inputfname">First Name</label>                            
+                        <input type="text" class="form-control" id="inputfname" placeholder="Enter your first name...">       
+                    </div> 
+                    <div class="form-group">
+                        <button value="Submit" class="btn link-button link-button-v2" type="submit">REdeem code</button>
+                    </div> 
+                </form> 
+            </div>
+        </div>
+        <!-- End col-md-4 -->
+        <div class="col-md-4 cart-totals text-price">
+            <div class="title-product">
+                <h3>Cart totals</h3>
+            </div>
+            <ul>
+                <li><span class="text">Cart Subtotal</span><span class="number">$ 1,990.00</span></li>
+                <li><span class="text">Shipping and Handling</span><span class="number">$ 50.00</span></li>
+                <li><span class="text">Cart Totals</span><span class="number">$ 2,040.00</span></li>
+            </ul>
+            <a class="btn link-button" href="#" title="Proceed to checkout">Proceed to checkout</a>
+        </div>
+        <!-- End col-md-4 -->
+    </div>
+    <!-- End shipping-total -->
+    </div>           
+    <!-- End conainer -->
+  </div>
